@@ -1,0 +1,6 @@
+name: EnderAffixes
+version: ${project.version}
+main: eu.endermite.enderaffixes.EnderAffixes
+api-version: 1.15
+authors: [YouHaveTrouble]
+description: Random affixes to spice up your server

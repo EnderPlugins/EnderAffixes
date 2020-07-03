@@ -1,0 +1,45 @@
+# How many affixes should be active at once
+affixes-at-once:
+  major: 1
+  minor: 4
+
+# How often affixes change in days
+affixes-change: 7
+affixes:
+  major:
+    double-or-nothing:
+      enabled: true
+      friendly-name: "Double or Nothing"
+      description: "Players deal double damage."
+      icon: DIAMOND_SWORD
+    no-armor:
+      enabled: true
+      friendly-name: "Armor Banned"
+      description: "Armor does nothing now."
+      icon: BARRIER
+    killstreak:
+      enabled: true
+      friendly-name: "On Fire"
+      description: "Players lose max hp when killing other players."
+      icon: FLINT_AND_STEEL
+    axes-no-cooldown:
+      enabled: true
+      friendly-name: "Here's Johnny!"
+      description: "Axes no longer have a swing cooldown, but deal 60% reduced damage."
+      icon: IRON_AXE
+  minor:
+    boomers:
+      enabled: true
+      friendly-name: "Boomers"
+      description: "Players create small explosion on death."
+      icon: TNT
+    oh_sheep:
+      enabled: true
+      friendly-name: "Oh Sheep!"
+      description: "Shearing sheep drops TNT."
+      icon: SHEARS
+    longer_potions:
+      enabled: true
+      friendly-name: "Home Brewing"
+      description: "Potion effects last 25% longer."
+      icon: BREWING_STAND
